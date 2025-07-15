@@ -4,3 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+ecoblock-storage = { path = "../ecoblock-storage" }
+ecoblock_core = { path = "../ecoblock-core" }
+ecoblock_crypto = { path = "../ecoblock-crypto" }
+ecoblock_network = { path = "../ecoblock-network" }
+ecoblock-gossip = { path = "../ecoblock-gossip" }
+ecoblock_mesh   = { path = "../ecoblock-mesh" }
+lazy_static = "1.4"
+serde_json = "1.0"
